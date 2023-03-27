@@ -1,0 +1,22 @@
+{
+  "name": "netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "lambda-serve": "^1.0.1",
+    "netlify-lambda": "^2.0.1",
+    "package": "^1.0.1",
+    "scrabble": "^1.0.10"
+  }
+}

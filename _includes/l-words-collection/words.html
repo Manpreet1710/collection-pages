@@ -1,0 +1,301 @@
+{% assign dataToShow = site.data[page.folderName][page.lang][page.fileName] %}
+
+<div id="get-value" data-fileName="{{page.fileName}}" data-lang="{{page.lang}}" data-folderName="{{page.folderName}}">
+    <div class="row">
+        <div class="main_panel col-lg-10 mx-auto">
+            {%- if dataToShow.h1 or dataToShow.h2 -%}
+            <div class="tools_headings py-4 mt-4">
+                <div class="container-fluid">
+                    <div class="pageHeading text-center">
+                        <h1 class="heading pb-0 mb-3">{{dataToShow.h1}}</h1>
+                        {%- if dataToShow.h2 != '' -%}
+                        <h2>{{dataToShow.h2}}</h2>
+                        {%- endif -%}
+                    </div>
+                </div>
+            </div>
+            {%- endif -%}
+            <div class="row m-0">
+                <div class="col-md-8 left-sidebar-controller">
+                    <div class="wordCount">{{dataToShow.wordLength}}</div>
+                    <div class="main">
+                        {%- for scrabblewords in dataToShow.words-%}
+                        {%- for item in scrabblewords %}
+                        {%- if forloop.index == 1 -%}
+                        <div class="allGroupWords wordlistContainer" id="alpha_{{item.i}}">
+                            <div class="wordListHeading">
+                                <h3 class="mb-0 lead">{{item.i}} Letter Words</h3>
+                            </div>
+                            <div class="wordList">
+                                <ul class="ul list-unstyled">
+                                    {%- for item in scrabblewords limit:50 %}
+                                    {%- assign value = item.word -%}
+                                    <a class="anchor__style" target="_blank"
+                                        href="/word-meaning?search={{item.word | strip_html}}">
+                                        <div class="tool-tip" data-toggle="tooltip" data-placement="top"
+                                            title="Lookup {{item.word | strip_html }} in Dictionary">
+                                            <li class="list_word">
+                                                {{item.word}}
+                                                <span class="points" value="{{item.points}}">{{item.points}}</span>
+                                            </li>
+                                        </div>
+                                    </a>
+                                    {%- endfor -%}
+                                </ul>
+                                <div class="btn-container">
+                                    <button onclick="showmoreWords(this)" type="button" class="border-0 showmore btn"
+                                        id="{{item.i}}">See More Words</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        {%- endif -%}
+                        {%- endfor -%}
+                        {%- endfor -%}
+                    </div>
+                    <div class="errorMsg alert alert-danger"></div>
+                </div>
+
+                <div class="col-md-4 right-sidebar-controller results-sidebar-controller">
+                    <section class="results-sidebar-section">
+                        <div class="results-sidebar-section-search">
+                            <form id='form'>
+                                <div class="tab_link_wrapper" style="position: relative;">
+                                    <div id="tab-scroll" class="tab-scroll flex-row">
+                                        <input type="button" name="" id="prev"
+                                            class="prev tabsBg noOutline cursorPointer" value="" style="display: none;">
+                                        <div id="tab-container" class="search-container tab_container flex-row">
+                                            {%- if dataToShow.words.size > 1 -%}
+                                            {%- for scrabblewords in dataToShow.words-%}
+                                            {%- for item in scrabblewords %}
+                                            {%- if forloop.index == 1 -%}
+                                            <input type="button" id="Tab_{{item.i}}" onclick="filterLinks({{item.i}})"
+                                                value="{{item.i}} Letter" class="tab_link cursorPointer">
+                                            {%- endif -%}
+                                            {%- endfor -%}
+                                            {%- endfor -%}
+                                            {%- endif -%}
+                                        </div>
+                                        <input type="button" name="" id="next"
+                                            class="next tabsBg noOutline cursorPointer" value=" "
+                                            style="display: none;">
+                                    </div>
+                                </div>
+                                <div class="search-box position-relative">
+                                    <input placeholder="YOUR LETTERS" class="txtBox" name="search" maxlength="15"
+                                        autocomplete="off" id="mobile_txtbox">
+                                    <div class="close-button" style="display:none"><i
+                                            class="ltr-cls-btn bi bi-x-circle-fill"></i></div>
+
+                                    <button class="d-none btn mobile-search-icon">
+                                        <i class="bi bi-search"></i>
+                                    </button>
+
+                                    <div class="advanced-toggle-button" onclick="showAdvancedToggle()">
+                                        <i style="font-size: 18px;" class="filter_icon bi bi-funnel"></i>
+                                    </div>
+                                </div>
+                                <div class="mobile-advanced-filter advanced-filter">
+                                    <div class="row m-0">
+                                        <div class="col-6 px-2">
+                                            <div class="mb-2">
+                                                <div class="startsWith">
+                                                    <input class="form-control common_style" type="text" id="startsWith"
+                                                        placeholder="Starts" value="{{page.startsWith}}" name="prefix"
+                                                        autocomplete="off">
+                                                    <div class="filter-tooltip" data-toggle="tooltip"
+                                                        data-placement="top"
+                                                        title="Find words that start with these letters(AB-&gt; Able)"
+                                                        id="Find words that start with these letters(AB-&gt; Able)">
+                                                        <i class="bi bi-question-circle"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {%- if page.vowels != true and page.consonants != true and page.middle
+                                        != true
+                                        -%}
+                                        <div id="common_filter" class="col-6 px-2">
+                                            <div class="mb-2">
+                                                <div class="mustInclude">
+                                                    <input class="form-control common_style" type="text"
+                                                        id="mustInclude" value="{{page.contains}}"
+                                                        placeholder="Contains" name="contains" autocomplete="off">
+                                                    <div class="filter-tooltip" data-toggle="tooltip"
+                                                        data-placement="top"
+                                                        title="Words that contain letters in this order(ab)"
+                                                        id="Words that contain letters in this order(ab)">
+                                                        <i class="bi bi-question-circle"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {%- endif -%}
+
+                                        <div class="col-6 px-2">
+                                            <div class="mb-2">
+                                                <div class="endsWith">
+                                                    <input class="form-control common_style" type="text" id="endsWith"
+                                                        value="{{page.endsWith}}" placeholder="Ends" name="suffix"
+                                                        autocomplete="off">
+                                                    <div class="filter-tooltip" data-toggle="tooltip"
+                                                        data-placement="top"
+                                                        title="Filter for words that ends with these letters"
+                                                        id="Filter for words that ends with these letters">
+                                                        <i class="bi bi-question-circle"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="col-6 px-2">
+                                            <div class="mb-2">
+                                                <select class="wordLength  selct_style">
+                                                    <option value="" selected>Length</option>
+                                                    <option value="2">2 LETTERS</option>
+                                                    <option value="3">3 LETTERS</option>
+                                                    <option value="4">4 LETTERS</option>
+                                                    <option value="5">5 LETTERS</option>
+                                                    <option value="6">6 LETTERS</option>
+                                                    <option value="7">7 LETTERS</option>
+                                                    <option value="8">8 LETTERS</option>
+                                                    <option value="9">9 LETTERS</option>
+                                                    <option value="10">10 LETTERS</option>
+                                                    <option value="11">11 LETTERS</option>
+                                                    <option value="12">12 LETTERS</option>
+                                                    <option value="13">13 LETTERS</option>
+                                                    <option value="14">14 LETTERS</option>
+                                                    <option value="15">15 LETTERS</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        {%- if page.middle -%}
+                                        <div data-middle="{{page.middle}}" id="common_filter" class="col-6 px-2">
+                                            <div class="mb-2">
+                                                <div class="mustInclude">
+                                                    <input class="form-control common_style" type="text"
+                                                        id="mustInclude" value="{{page.contains}}" placeholder="Middle"
+                                                        name="contains" autocomplete="off">
+                                                    <div class="filter-tooltip" data-toggle="tooltip"
+                                                        data-placement="top"
+                                                        title="Words that contain letters in middle order(ab)"
+                                                        id="Words that contain letters in middle order(ab)">
+                                                        <i class="bi bi-question-circle"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {%- endif -%}
+
+                                        {%- if page.vowels -%}
+                                        <div class="col-6 px-2">
+                                            <select class="vowels  selct_style">
+                                                <option value="" selected>0 Vowels</option>
+                                                <option value="1">1 Vowels</option>
+                                                <option value="2">2 Vowels</option>
+                                                <option value="3">3 Vowels</option>
+                                                <option value="4">4 Vowels</option>
+                                                <option value="5">5 Vowels</option>
+                                                <option value="6">6 Vowels</option>
+                                                <option value="7">7 Vowels</option>
+                                                <option value="8">8 Vowels</option>
+                                                <option value="9">9 Vowels</option>
+                                                <option value="10">10 Vowels</option>
+
+                                            </select>
+                                        </div>
+                                        {%- elsif page.consonants -%}
+                                        <div class="col-6 px-2 vowels">
+                                            <select id="consonants" class="consonants  selct_style">
+                                                <option value="" selected>0 Consonants</option>
+                                                <option value="1">1 Consonants</option>
+                                                <option value="2">2 Consonants</option>
+                                                <option value="3">3 Consonants</option>
+                                                <option value="4">4 Consonants</option>
+                                                <option value="5">5 Consonants</option>
+                                                <option value="6">6 Consonants</option>
+                                                <option value="7">7 Consonants</option>
+                                                <option value="8">8 Consonants</option>
+
+                                            </select>
+                                        </div>
+                                        {%- endif -%}
+                                    </div>
+                                    <div class="d-flex  w-100 mt-3">
+                                        <input type="submit" value="SEARCH" class="text-white buttonCommon">
+                                    </div>
+                                </div>
+                                <div class="alert alert-danger" role="alert" id="not-found"
+                                    style="font-size: 15px; padding:15px">
+                                    You may want to try searching for a different
+                                    combination of letters.
+                                </div>
+                            </form>
+                            <div class="mobile_sorting_container position-relative" id="sort-select">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#000"
+                                    class="sort-icon bi bi-sort-down" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
+                                </svg>
+                                <select class="form-select sort-select">
+                                    <option selected="" hidden="" id="alpha" value="alpha">Sort by</option>
+                                    <option id="alpha" value="alpha">A-Z</option>
+                                    <option id="alpha" value="alpha">Z-A</option>
+                                    <option id="alpha" value="alpha">Points</option>
+                                </select>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="desktop_sorting_container mt-3">
+                        <div class="sorting-heading">Sort By</div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="Points" name="sortby" id="sort3">
+                            <label class="form-check-label" for="sort3">
+                                <span class="checboxSpan checked"></span> Points
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="A-Z" name="sortby" id="sort1">
+                            <label class="form-check-label" for="sort1">
+                                <span class="checboxSpan"></span>
+                                A-Z</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" value="Z-A" name="sortby" id="sort2">
+                            <label class="form-check-label" for="sort2">
+                                <span class="checboxSpan"></span> Z-A
+                            </label>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let startwith_filter = `{{page.startsWith}}`
+    let endswith_filter = `{{page.endsWith}}`
+    let contains_filter = `{{page.contains}}`
+    let middle_filter = `{{page.middle}}`
+    let length_filter = `{{page.length}}`
+
+    if (startwith_filter || endswith_filter || contains_filter || middle_filter || length_filter) {
+        document.querySelector(".advanced-toggle-button").classList.add("highlight_filter")
+    }
+</script>
+<script src="/assets/js/words.js"></script>
+{%- if page.vowels -%}
+<script src="/assets/js/vowelsFilter.js" data-length="{{page.length}}" data-vowelength="{{page.vowelLength}}"></script>
+{%- elsif page.consonants -%}
+<script src="/assets/js/consonentsFilter.js" data-length="{{page.length}}"
+    data-consonantentlen="{{page.consonantLength}}"></script>
+{%- elsif page.middle -%}
+<script src="/assets/js/middleFilter.js" data-length="{{page.length}}"></script>
+{%- else -%}
+<script src="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
+{%- endif -%}

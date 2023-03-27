@@ -1,0 +1,142 @@
+---
+layout: blank
+lang: en
+title: Page Not Found!
+permalink: /404.html
+---
+
+
+<style>
+    .page_404 {
+        width: 100%;
+        height: 90vh;
+        display: grid;
+        place-items: center;
+    }
+
+    .page_404 img {
+        width: 100%;
+        margin-top: -40px;
+    }
+
+    .page_404Text {
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.8);
+        font-style: normal;
+        font-size: 36px;
+        text-align: left;
+        font-weight: 600;
+
+    }
+
+    .sorry_text {
+        font-size: 2.5rem;
+        color: black;
+        line-height: 48px;
+
+    }
+
+    @media (max-width:768px) {
+        .page_404Mobile {
+            display: block !important;
+            margin-top: 80px;
+
+        }
+
+        .page_404 {
+            display: none;
+        }
+
+        .page_404Text {
+            font-size: 25px;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        .page_404_buttons .gobacktohome {
+            margin: 0 auto
+        }
+
+
+    }
+
+    @media (max-width:992px) {
+        .sorry_text {
+            font-size: 2rem;
+
+        }
+
+        .page_404 img {
+            margin-top: 0px;
+        }
+    }
+
+    @media (max-width:1125px) {
+        .page_404 img {
+            margin-top: 0px;
+        }
+    }
+
+    .page_404_buttons .gobacktohome {
+        margin: 1rem 0;
+        outline: none;
+        border: none;
+        background-color: #484848;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        width: 200px;
+        border-radius: 5px;
+        padding: 1.3rem;
+        display: block;
+    }
+
+    a:hover {
+        text-decoration: none !important;
+        color: #fff !important
+    }
+</style>
+
+<!-- 404 error page -->
+<div class="page_404">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="page_404_content">
+                    <p class="page_404Text">404! page not found</p>
+                    <p class="sorry_text">Sorry we're unable to find the page you're looking for.</p>
+                </div>
+                <div class="page_404_buttons">
+                    <a href="/">
+                        <button class="btn gobacktohome">Go to Homepage</button>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="/assets/images/404.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="page_404Mobile d-none">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="/assets/images/404.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+                <div class="page_404_content">
+                    <p class="page_404Text">404! page not found</p>
+                    <p class="sorry_text">Sorry we're unable to find the page you're looking for.</p>
+                </div>
+                <div class="page_404_buttons">
+                    <a href="/">
+                        <button class="gobacktohome">Go to Homepage</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //404 error page -->

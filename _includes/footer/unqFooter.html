@@ -1,0 +1,69 @@
+<style>
+    li {
+        list-style: none;
+    }
+
+    .inner-dropdown {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .txt-primary {
+        color: #000;
+        font-size: 18px;
+        margin-bottom: 12px;
+        text-decoration: none !important;
+    }
+
+    .txt-secondary {
+        color: rgba(53, 61, 80, 1) !important;
+    }
+
+    .footer_links {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+</style>
+<footer class="footer-section">
+    <div class="footer-wrap">
+        <div class="container">
+            <div class="footer-single-col">
+                <div class="main_row row py-5 mx-0 mt-5">
+                    {%- if dataToShow.megaMenu -%}
+                    <div class="col-md-11 mx-auto">
+                        <ul>
+                            <div class="inner-dropdown row">
+                                {%- for item in dataToShow.megaMenu.dropdown -%}
+                                <div class="footer_links col-lg-4 col-md-6 mb-4 card-group">
+                                    <p class="mb-4"><a
+                                            style="color: #222 !important; font-weight: bold;font-size: 16px;"
+                                            class="footer-links txt-secondary">{{item.categoryName}}</a></p>
+                                    {%- for item in item.links -%}
+                                    <p class="mb-4"><a class="footer-links txt-secondary"
+                                            href="{{item.url}}">{{item.name}}</a></p>
+                                    {%- endfor -%}
+                                </div>
+                                {%- endfor -%}
+                            </div>
+                        </ul>
+                    </div>
+                    {%- endif -%}
+                </div>
+
+                <div class="row m-0 py-3">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between px-md-5 px-0 footer__flexbox">
+                            <p class="m-0">{{site.copyright_text}}</p>
+                            <p class="m-0"><a class="footer__link" href="/privacy-policy">Privacy Policy</a>
+                                <a class="footer__link" href="/terms-and-conditions">| Terms of Use</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+</footer>

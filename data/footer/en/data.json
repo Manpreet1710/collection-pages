@@ -1,0 +1,81 @@
+{
+    "logo": "https://d33wubrfki0l68.cloudfront.net/ed710b6efb59f7057f7a02f110608e34d61929e6/2a338/assets/images/wordswithletters-logo.svg",
+    "heading": "marketing@wordgames.org",
+    "linksTitle": "Resources",
+    "companytitle": "Company",
+    "networksitestitle": "Network sites",
+    "producttitle": "Tools",
+    "company": [
+        {
+            "name": "Terms of use",
+            "url": "/words-collections/terms-and-conditions"
+        },
+        {
+            "name": "Privacy Policy",
+            "url": "/words-collections/privacy-policy"
+        },
+        {
+            "name": "Disclaimer",
+            "url": "/words-collections/disclaimer"
+        }
+    ],
+    "links": [],
+    "tools": [
+        {
+            "name": "All L Letter Containing X Pages",
+            "url": "/words-collections/all-l-letter-containing-x-pages"
+        },
+        {
+            "name": "All Ending with x pages",
+            "url": "/words-collections/all-ending-with-x-pages"
+        },
+        {
+            "name": "All L letter Ending with x pages",
+            "url": "/words-collections/all-l-letter-ending-with-x-pages"
+        },
+        {
+            "name": "All L Letter Starting with x pages",
+            "url": "/words-collections/all-l-letter-starting-with-x-pages"
+        },
+        {
+            "name": "All L letter words pages",
+            "url": "/words-collections/all-l-letter-words-pages"
+        },
+        {
+            "name": "All starting with x pages",
+            "url": "/words-collections/all-starting-with-x-pages"
+        },
+        {
+            "name": "All containing x and y pages",
+            "url": "/words-collections/all-containing-x-and-y-pages"
+        },
+        {
+            "name": "All containing x pages",
+            "url": "/words-collections/all-containing-x-pages"
+        }
+    ],
+    "social": [
+        {
+            "icon": "bi bi-facebook",
+            "url": "/words-collections/",
+            "title": "facebook"
+        },
+        {
+            "icon": "bi bi-instagram",
+            "url": "/words-collections/",
+            "title": "instagram"
+        },
+        {
+            "icon": "bi bi-linkedin",
+            "url": "/words-collections/",
+            "title": "linkden"
+        },
+        {
+            "icon": "bi bi-twitter",
+            "url": "/words-collections/",
+            "title": "twitter"
+        }
+    ],
+    "messege": "Copyright © 2023 All rights reserved to wordgames",
+    "legal": []
+}

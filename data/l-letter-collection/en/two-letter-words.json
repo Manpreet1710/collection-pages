@@ -1,0 +1,785 @@
+{
+    "h1": "All two letters words in english",
+    "h2": "Even the most difficult two-lettered words you can think of are generated.",
+    "title": "two letter words-Use this finder to find two letter words",
+    "meta": "Are you still trying to figure out how many words there are in the English language? With our free two-lettered word creator, you can generate high-scoring two-lettered words.",
+    "words": [
+        [
+            {
+                "word": "qi",
+                "points": 11,
+                "i": 2
+            },
+            {
+                "word": "za",
+                "points": 11,
+                "i": 2
+            },
+            {
+                "word": "ax",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "ex",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "ja",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "jo",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "ky",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "ox",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "xi",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "xu",
+                "points": 9,
+                "i": 2
+            },
+            {
+                "word": "fy",
+                "points": 8,
+                "i": 2
+            },
+            {
+                "word": "ph",
+                "points": 7,
+                "i": 2
+            },
+            {
+                "word": "by",
+                "points": 7,
+                "i": 2
+            },
+            {
+                "word": "ch",
+                "points": 7,
+                "i": 2
+            },
+            {
+                "word": "hm",
+                "points": 7,
+                "i": 2
+            },
+            {
+                "word": "my",
+                "points": 7,
+                "i": 2
+            },
+            {
+                "word": "ka",
+                "points": 6,
+                "i": 2
+            },
+            {
+                "word": "ki",
+                "points": 6,
+                "i": 2
+            },
+            {
+                "word": "ko",
+                "points": 6,
+                "i": 2
+            },
+            {
+                "word": "mm",
+                "points": 6,
+                "i": 2
+            },
+            {
+                "word": "ah",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "aw",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ay",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ef",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "eh",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "fa",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "fe",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ha",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "he",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "hi",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ho",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "if",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ny",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "of",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "oh",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ow",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "oy",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "sh",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "uh",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "we",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "wo",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ya",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ye",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "yo",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "yu",
+                "points": 5,
+                "i": 2
+            },
+            {
+                "word": "ab",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "am",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "ba",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "be",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "bi",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "bo",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "em",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "ma",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "me",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "mi",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "mo",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "mu",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "ob",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "om",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "op",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "pa",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "pe",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "pi",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "po",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "um",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "up",
+                "points": 4,
+                "i": 2
+            },
+            {
+                "word": "ad",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "ag",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "da",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "de",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "di",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "do",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "ed",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "gi",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "go",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "gu",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "id",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "od",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "ug",
+                "points": 3,
+                "i": 2
+            },
+            {
+                "word": "aa",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ae",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ai",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "al",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "an",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ar",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "as",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "at",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ea",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ee",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "el",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "en",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "er",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "es",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "et",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "in",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "io",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "is",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "it",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "la",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "li",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "lo",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "na",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ne",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "no",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "nu",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "oe",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "oi",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "on",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "oo",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "or",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "os",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ou",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "re",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "si",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "so",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "st",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ta",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "te",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ti",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "to",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "un",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ur",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "us",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "ut",
+                "points": 2,
+                "i": 2
+            },
+            {
+                "word": "zo",
+                "points": 11,
+                "i": 2
+            }
+        ]
+    ],
+    "wordLength": "Found 125 words with two letters",
+    "feature_title": "Features",
+    "blogNo": "03",
+    "blog_title": "Blog",
+    "FaqNo": "04",
+    "Faq_title": "FAQ",
+    "aboutNo": "05",
+    "about_title": "About",
+    "megaMenu": {
+        "nav-link-name": "Tools",
+        "dropdown": [
+            {
+                "categoryName": "Recommended Pages",
+                "links": [
+                    {
+                        "name": "Two letter words",
+                        "url": "/words-collections/two-letter-words"
+                    },
+                    {
+                        "name": "Three letter words",
+                        "url": "/words-collections/three-letter-words"
+                    },
+                    {
+                        "name": "Four letter words",
+                        "url": "/words-collections/four-letter-words"
+                    },
+                    {
+                        "name": "Five letter words",
+                        "url": "/words-collections/five-letter-words"
+                    },
+                    {
+                        "name": "Six letter words",
+                        "url": "/words-collections/six-letter-words"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Recommended Pages",
+                "links": [
+                    {
+                        "name": "Seven letter words",
+                        "url": "/words-collections/seven-letter-words"
+                    },
+                    {
+                        "name": "Eight letter words",
+                        "url": "/words-collections/eight-letter-words"
+                    },
+                    {
+                        "name": "Nine letter words",
+                        "url": "/words-collections/nine-letter-words"
+                    },
+                    {
+                        "name": "Ten letter words",
+                        "url": "/words-collections/ten-letter-words"
+                    },
+                    {
+                        "name": "Eleven letter words",
+                        "url": "/words-collections/eleven-letter-words"
+                    }
+                ]
+            },
+            {
+                "categoryName": "Recommended Pages",
+                "links": [
+                    {
+                        "name": "Twelve letter words",
+                        "url": "/words-collections/twelve-letter-words"
+                    },
+                    {
+                        "name": "Thirteen letter words",
+                        "url": "/words-collections/thirteen-letter-words"
+                    },
+                    {
+                        "name": "Fourteen letter words",
+                        "url": "/words-collections/fourteen-letter-words"
+                    },
+                    {
+                        "name": "Fifteen letter words",
+                        "url": "/words-collections/fifteen-letter-words"
+                    }
+                ]
+            }
+        ]
+    },
+    "featureList": [
+        {
+            "feature_heading": "It's completely free.",
+            "feature_text": "No fee or subscription is charged for using two-letter words, and no registration or login is required. There are no limitations to usage. This application is free to use.",
+            "fa_class": "../assets/images/star.svg"
+        },
+        {
+            "feature_heading": "Totaly safe",
+            "feature_text": "When you use two-letter words online tool, the databases that store the information you enter do not save or send it to any other source. Another benefit of using this application is that your data is kept confidential and your work quality is not jeopardised. It is secured and removed from the system by the tool. This allows us to provide comprehensive protection to all of our consumers, ensuring that our product is completely reliable and risk-free to use in any situation, at any time of day or night.",
+            "fa_class": "../assets/images/star.svg"
+        },
+        {
+            "feature_heading": "Simple to operate",
+            "feature_text": "two-letter words is very user-friendly tools. Everything is in one place, so there's no need to think about where to begin. Our online tool is also ad-free, resulting in a superior user experience. The letter can be used to look up your words so that you can complete the online application as directed. These tools are designed to be basic enough for anyone to use.",
+            "fa_class": "../assets/images/star.svg"
+        },
+        {
+            "feature_heading": "There are almost no extra resources required.",
+            "feature_text": "two-letter words is web-based and works in the cloud. It can be accessed with any device's browser. You are not need to install or download any other tools or software in order to use this application. This tool is extremely user-friendly.",
+            "fa_class": "../assets/images/star.svg"
+        },
+        {
+            "feature_heading": "Use without login",
+            "feature_text": "two-letter words is absolutely free, and you don't have to give us any personal information like your email address or password to use it. Our service is unrestricted. There is no need to download software or register for a service because the online tool is saved locally in your internet browser.",
+            "fa_class": "../assets/images/star.svg"
+        },
+        {
+            "feature_heading": "There are no issues with compatibility.",
+            "feature_text": "two-letter words is compatible with all browsers and OS systems. This website's online tool is a web-based service that may be accessed from any computer or mobile device that has access to the internet. Chrome, Safari, Firefox, Microsoft Edge, and a variety of other weltwo-known browsers are all supported. As a result, depending on your preference, you can use this online tool to find the words on a desktop computer, an iPad, a tablet, or a mobile phone. If you use our web service, you will not be needed to purchase or install any additional software or plugins on your computer.",
+            "fa_class": "../assets/images/star.svg"
+        }
+    ],
+    "faqList": [
+        {
+            "Question": "What is the short words that two-letter words?",
+            "Answer": " Make all possible words whose length is small.This tools will help you find high-scoring words two-letter words."
+        },
+        {
+            "Question": "How to use two-letter words?",
+            "Answer": "Make  all possible words using this online tools.Enter any letter that the word must start with. All two-letter words are valid words."
+        },
+        {
+            "Question": "If I want to make a complaint about the quality of 'two-letter words', what should I do?",
+            "Answer": "Please contact us with the specifics of the problem you've encountered. A member of our staff will get out to you to assist you with your problem."
+        },
+        {
+            "Question": "Can I use the 'two-letter words' on my android device?",
+            "Answer": "Yes, you can two-letter words on an android device easily because they are internet-based tools."
+        },
+        {
+            "Question": "Can I use the 'two-letter words containing X and Y' without downloading?",
+            "Answer": "Yes, you can use these tools without downloading because they are internet-based tools."
+        },
+        {
+            "Question": "Can I use this tool ( two-letter words) in all brouwser ?",
+            "Answer": "Yes, you can use this tool in all browser because this is free  online utility. this tools are compatible with all browsers and OS system. This tool is a web -based service that may be accessed from any computer or mobile device that has access to the internet. Chrome, Safari, Firefox, Microsoft Edge, and a variety of other well-know browsers are all supported."
+        },
+        {
+            "Question": "How do I communicate if I face any issues or if I want to give any suggestions for 'two-letter words'?",
+            "Answer": "If you have any issues using the application 'two-letter words', you can read the FAQ and give suggestions in the contact option and fill in the form."
+        },
+        {
+            "Question": "Do we need to sign up for an account 'two-letter words'?",
+            "Answer": "No need to be sign up. Our online tool 'two-letter words' is absolutely free, and you don't have to give us any personal information like your email address or password to use it. Our service is unrestricted. There is no need to download software or register for a service because the online tool is saved locally in your internet browser."
+        }
+    ]
+}

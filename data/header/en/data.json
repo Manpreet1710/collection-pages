@@ -1,0 +1,186 @@
+{
+  "navbarBrandText": "",
+  "tooltip": "words with letters",
+  "megaMenu": {
+    "nav-link-name": "Tools",
+    "dropdown": [
+      {
+        "categoryName": "Word Lists",
+        "links": [
+          {
+            "name": "Wordle Solver",
+            "url": "/wordle-solver"
+          },
+          {
+            "name": "Words Collections",
+            "url": "/words-collections"
+          },
+          {
+            "name": "Make Words With These Letters",
+            "url": "/make-words-with-these-letters"
+          },
+          {
+            "name": "Word Generator From Letters",
+            "url": "/word-generator-from-letters"
+          },
+          {
+            "name": "Words spelled with these letters ",
+            "url": "/words-spelled-with-these-letters"
+          },
+          {
+            "name": "Find words that start with the letters",
+            "url": "/find-words-that-start-with-the-letters"
+          },
+          {
+            "name": "Find words with letters in certain positions",
+            "url": "/find-words-with-letters-in-certain-positions"
+          },
+          {
+            "name": "URLs of words with specific letters",
+            "url": "/words-with-letters"
+          },
+          {
+            "name": "How many words can you make from these letters",
+            "url": "/how-many-words-can-you-make-from-these-letters"
+          },
+          {
+            "name": "What words can i spell with these letters and a blank",
+            "url": "/what-words-can-i-spell-with-these-letters-and-a-blank"
+          },
+          {
+            "name": "Words with these letters and 2 blanks",
+            "url": "/words-with-these-letters-and-2-blanks"
+          },
+          {
+            "name": "Words with these letters and 3 blanks",
+            "url": "/words-with-these-letters-and-3-blanks"
+          },
+          {
+            "name": "Words with letters",
+            "url": "/"
+          },
+          {
+            "name": "Word meaning",
+            "url": "/word-meaning"
+          },
+          {
+            "name": "All Pages",
+            "url": "/allpages"
+          }
+        ]
+      },
+      {
+        "categoryName": "Words of length",
+        "links": [
+          {
+            "name": "X letter words with letters",
+            "url": "/x-letter-words-with-letters"
+          },
+          {
+            "name": "Six letter words with these letters",
+            "url": "/six-letter-words-with-these-letters"
+          },
+          {
+            "name": "Five letter words with these letters",
+            "url": "/five-letter-words-with-these-letters"
+          },
+          {
+            "name": "Seven letter words with these letters",
+            "url": "/seven-letter-words-with-these-letters"
+          },
+          {
+            "name": "Four letter words with these letters",
+            "url": "/four-letter-words-with-these-letters"
+          },
+          {
+            "name": "Three letter words with these letters",
+            "url": "/three-letter-words-with-these-letters"
+          },
+          {
+            "name": "Two letter words with these letters",
+            "url": "/two-letter-words-with-these-letters"
+          },
+          {
+            "name": "Eight letter words with these letters",
+            "url": "/eight-letter-words-with-these-letters"
+          },
+          {
+            "name": "Nine letter words with these letters",
+            "url": "/nine-letter-words-with-these-letters"
+          },
+          {
+            "name": "Ten letter words with these letters",
+            "url": "/ten-letter-words-with-these-letters"
+          },
+          {
+            "name": "Eleven letter words with these letters",
+            "url": "/eleven-letter-words-with-these-letters"
+          },
+          {
+            "name": "Twelve letter words with these letters",
+            "url": "/twelve-letter-words-with-these-letters"
+          },
+          {
+            "name": "Thirteen letter words with these letters",
+            "url": "/thirteen-letter-words-with-these-letters"
+          }
+        ]
+      },
+      {
+        "categoryName": "Blog",
+        "links": [
+          {
+            "name": "Words with silent letters",
+            "url": "/words-with-silent-letters"
+          },
+          {
+            "name": "Long words with letters",
+            "url": "/long-words-with-letters"
+          },
+          {
+            "name": "Short words with letters",
+            "url": "/short-words-with-letters"
+          },
+          {
+            "name": "Vowels",
+            "url": "/vowels"
+          }
+        ]
+      },
+      {
+        "categoryName": "All posible worlds",
+        "links": [
+          {
+            "name": "All L Letter Containing X Pages",
+            "url": "/words-collections/all-l-letter-containing-x-pages"
+          },
+          {
+            "name": "All Ending with x pages",
+            "url": "/words-collections/all-ending-with-x-pages"
+          },
+          {
+            "name": "All L letter Ending with x pages",
+            "url": "/words-collections/all-l-letter-ending-with-x-pages"
+          },
+          {
+            "name": "All L Letter Starting with x pages",
+            "url": "/words-collections/all-l-letter-starting-with-x-pages"
+          },
+          {
+            "name": "All L letter words pages",
+            "url": "/words-collections/all-l-letter-words-pages"
+          },
+          {
+            "name": "All starting with x pages",
+            "url": "/words-collections/all-starting-with-x-pages"
+          },
+          {
+            "name": "All containing x and y pages",
+            "url": "/words-collections/all-containing-x-and-y-pages"
+          },
+          { "name": "All containing x pages", "url": "/words-collections/all-containing-x-pages" }
+        ]
+      }
+    ]
+  }
+}

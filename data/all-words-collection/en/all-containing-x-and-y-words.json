@@ -1,0 +1,843 @@
+{
+  "h1": "All containing x and y letters words",
+  "title": "All containing x and y letters words - wordswithletters",
+  "meta": "Generates All containing x and y letters words by rearranging your letters  Win at Scrabble and WWF using wordswithletters.org",
+  "links": [
+    {
+      "name": "words containing z and x",
+      "url": "/words-collections/words-containing-z-and-x"
+    },
+    {
+      "name": "words containing b and z",
+      "url": "/words-collections/words-containing-b-and-z"
+    },
+    {
+      "name": "words containing j and z",
+      "url": "/words-collections/words-containing-j-and-z"
+    },
+    {
+      "name": "words containing o and e",
+      "url": "/words-collections/words-containing-o-and-e"
+    },
+    {
+      "name": "words containing q and x",
+      "url": "/words-collections/words-containing-q-and-x"
+    },
+    {
+      "name": "words containing q and z",
+      "url": "/words-collections/words-containing-q-and-z"
+    },
+    {
+      "name": "words containing x and q",
+      "url": "/words-collections/words-containing-x-and-q"
+    },
+    {
+      "name": "words containing a and e",
+      "url": "/words-collections/words-containing-a-and-e"
+    },
+    {
+      "name": "words containing e and q",
+      "url": "/words-collections/words-containing-e-and-q"
+    },
+    {
+      "name": "words containing g and z",
+      "url": "/words-collections/words-containing-g-and-z"
+    },
+    {
+      "name": "words containing j and q",
+      "url": "/words-collections/words-containing-j-and-q"
+    },
+    {
+      "name": "words containing j and r",
+      "url": "/words-collections/words-containing-j-and-r"
+    },
+    {
+      "name": "words containing j and w",
+      "url": "/words-collections/words-containing-j-and-w"
+    },
+    {
+      "name": "words containing j and x",
+      "url": "/words-collections/words-containing-j-and-x"
+    },
+    {
+      "name": "words containing p and z",
+      "url": "/words-collections/words-containing-p-and-z"
+    },
+    {
+      "name": "words containing q and h",
+      "url": "/words-collections/words-containing-q-and-h"
+    },
+    {
+      "name": "words containing v and k",
+      "url": "/words-collections/words-containing-v-and-k"
+    },
+    {
+      "name": "words containing v and y",
+      "url": "/words-collections/words-containing-v-and-y"
+    },
+    {
+      "name": "words containing v and z",
+      "url": "/words-collections/words-containing-v-and-z"
+    },
+    {
+      "name": "words containing x and f",
+      "url": "/words-collections/words-containing-x-and-f"
+    },
+    {
+      "name": "words containing z and b",
+      "url": "/words-collections/words-containing-z-and-b"
+    },
+    {
+      "name": "words containing z and g",
+      "url": "/words-collections/words-containing-z-and-g"
+    },
+    {
+      "name": "words containing z and v",
+      "url": "/words-collections/words-containing-z-and-v"
+    },
+    {
+      "name": "words containing j and h",
+      "url": "/words-collections/words-containing-j-and-h"
+    },
+    {
+      "name": "words containing u and i",
+      "url": "/words-collections/words-containing-u-and-i"
+    },
+    {
+      "name": "words containing z and f",
+      "url": "/words-collections/words-containing-z-and-f"
+    },
+    {
+      "name": "words containing a and z",
+      "url": "/words-collections/words-containing-a-and-z"
+    },
+    {
+      "name": "words containing b and p",
+      "url": "/words-collections/words-containing-b-and-p"
+    },
+    {
+      "name": "words containing g and x",
+      "url": "/words-collections/words-containing-g-and-x"
+    },
+    {
+      "name": "words containing j and d",
+      "url": "/words-collections/words-containing-j-and-d"
+    },
+    {
+      "name": "words containing q and r",
+      "url": "/words-collections/words-containing-q-and-r"
+    },
+    {
+      "name": "words containing t and j",
+      "url": "/words-collections/words-containing-t-and-j"
+    },
+    {
+      "name": "words containing v and w",
+      "url": "/words-collections/words-containing-v-and-w"
+    },
+    {
+      "name": "words containing w and x",
+      "url": "/words-collections/words-containing-w-and-x"
+    },
+    {
+      "name": "words containing x and k",
+      "url": "/words-collections/words-containing-x-and-k"
+    },
+    {
+      "name": "words containing x and z",
+      "url": "/words-collections/words-containing-x-and-z"
+    },
+    {
+      "name": "words containing z and w",
+      "url": "/words-collections/words-containing-z-and-w"
+    },
+    {
+      "name": "words containing j and n",
+      "url": "/words-collections/words-containing-j-and-n"
+    },
+    {
+      "name": "words containing m and z",
+      "url": "/words-collections/words-containing-m-and-z"
+    },
+    {
+      "name": "words containing y and z",
+      "url": "/words-collections/words-containing-y-and-z"
+    },
+    {
+      "name": "words containing z and r",
+      "url": "/words-collections/words-containing-z-and-r"
+    },
+    {
+      "name": "words containing b and v",
+      "url": "/words-collections/words-containing-b-and-v"
+    },
+    {
+      "name": "words containing q and j",
+      "url": "/words-collections/words-containing-q-and-j"
+    },
+    {
+      "name": "words containing c and x",
+      "url": "/words-collections/words-containing-c-and-x"
+    },
+    {
+      "name": "words containing c and z",
+      "url": "/words-collections/words-containing-c-and-z"
+    },
+    {
+      "name": "words containing d and j",
+      "url": "/words-collections/words-containing-d-and-j"
+    },
+    {
+      "name": "words containing d and q",
+      "url": "/words-collections/words-containing-d-and-q"
+    },
+    {
+      "name": "words containing f and v",
+      "url": "/words-collections/words-containing-f-and-v"
+    },
+    {
+      "name": "words containing f and w",
+      "url": "/words-collections/words-containing-f-and-w"
+    },
+    {
+      "name": "words containing g and k",
+      "url": "/words-collections/words-containing-g-and-k"
+    },
+    {
+      "name": "words containing g and y",
+      "url": "/words-collections/words-containing-g-and-y"
+    },
+    {
+      "name": "words containing h and z",
+      "url": "/words-collections/words-containing-h-and-z"
+    },
+    {
+      "name": "words containing j and b",
+      "url": "/words-collections/words-containing-j-and-b"
+    },
+    {
+      "name": "words containing j and c",
+      "url": "/words-collections/words-containing-j-and-c"
+    },
+    {
+      "name": "words containing j and e",
+      "url": "/words-collections/words-containing-j-and-e"
+    },
+    {
+      "name": "words containing j and g",
+      "url": "/words-collections/words-containing-j-and-g"
+    },
+    {
+      "name": "words containing j and i",
+      "url": "/words-collections/words-containing-j-and-i"
+    },
+    {
+      "name": "words containing j and m",
+      "url": "/words-collections/words-containing-j-and-m"
+    },
+    {
+      "name": "words containing j and p",
+      "url": "/words-collections/words-containing-j-and-p"
+    },
+    {
+      "name": "words containing j and v",
+      "url": "/words-collections/words-containing-j-and-v"
+    },
+    {
+      "name": "words containing l and z",
+      "url": "/words-collections/words-containing-l-and-z"
+    },
+    {
+      "name": "words containing m and v",
+      "url": "/words-collections/words-containing-m-and-v"
+    },
+    {
+      "name": "words containing o and q",
+      "url": "/words-collections/words-containing-o-and-q"
+    },
+    {
+      "name": "words containing o and y",
+      "url": "/words-collections/words-containing-o-and-y"
+    },
+    {
+      "name": "words containing p and f",
+      "url": "/words-collections/words-containing-p-and-f"
+    },
+    {
+      "name": "words containing p and q",
+      "url": "/words-collections/words-containing-p-and-q"
+    },
+    {
+      "name": "words containing q and b",
+      "url": "/words-collections/words-containing-q-and-b"
+    },
+    {
+      "name": "words containing q and c",
+      "url": "/words-collections/words-containing-q-and-c"
+    },
+    {
+      "name": "words containing q and f",
+      "url": "/words-collections/words-containing-q-and-f"
+    },
+    {
+      "name": "words containing q and g",
+      "url": "/words-collections/words-containing-q-and-g"
+    },
+    {
+      "name": "words containing q and k",
+      "url": "/words-collections/words-containing-q-and-k"
+    },
+    {
+      "name": "words containing q and l",
+      "url": "/words-collections/words-containing-q-and-l"
+    },
+    {
+      "name": "words containing q and m",
+      "url": "/words-collections/words-containing-q-and-m"
+    },
+    {
+      "name": "words containing q and u",
+      "url": "/words-collections/words-containing-q-and-u"
+    },
+    {
+      "name": "words containing q and o",
+      "url": "/words-collections/words-containing-q-and-o"
+    },
+    {
+      "name": "words containing q and t",
+      "url": "/words-collections/words-containing-q-and-t"
+    },
+    {
+      "name": "words containing q and v",
+      "url": "/words-collections/words-containing-q-and-v"
+    },
+    {
+      "name": "words containing q and w",
+      "url": "/words-collections/words-containing-q-and-w"
+    },
+    {
+      "name": "words containing q and y",
+      "url": "/words-collections/words-containing-q-and-y"
+    },
+    {
+      "name": "words containing s and j",
+      "url": "/words-collections/words-containing-s-and-j"
+    },
+    {
+      "name": "words containing s and z",
+      "url": "/words-collections/words-containing-s-and-z"
+    },
+    {
+      "name": "words containing t and v",
+      "url": "/words-collections/words-containing-t-and-v"
+    },
+    {
+      "name": "words containing t and x",
+      "url": "/words-collections/words-containing-t-and-x"
+    },
+    {
+      "name": "words containing t and z",
+      "url": "/words-collections/words-containing-t-and-z"
+    },
+    {
+      "name": "words containing u and x",
+      "url": "/words-collections/words-containing-u-and-x"
+    },
+    {
+      "name": "words containing v and c",
+      "url": "/words-collections/words-containing-v-and-c"
+    },
+    {
+      "name": "words containing v and g",
+      "url": "/words-collections/words-containing-v-and-g"
+    },
+    {
+      "name": "words containing v and h",
+      "url": "/words-collections/words-containing-v-and-h"
+    },
+    {
+      "name": "words containing v and u",
+      "url": "/words-collections/words-containing-v-and-u"
+    },
+    {
+      "name": "words containing v and x",
+      "url": "/words-collections/words-containing-v-and-x"
+    },
+    {
+      "name": "words containing x and n",
+      "url": "/words-collections/words-containing-x-and-n"
+    },
+    {
+      "name": "words containing x and y",
+      "url": "/words-collections/words-containing-x-and-y"
+    },
+    {
+      "name": "words containing y and v",
+      "url": "/words-collections/words-containing-y-and-v"
+    },
+    {
+      "name": "words containing z and d",
+      "url": "/words-collections/words-containing-z-and-d"
+    },
+    {
+      "name": "words containing z and h",
+      "url": "/words-collections/words-containing-z-and-h"
+    },
+    {
+      "name": "words containing z and k",
+      "url": "/words-collections/words-containing-z-and-k"
+    },
+    {
+      "name": "words containing z and n",
+      "url": "/words-collections/words-containing-z-and-n"
+    },
+    {
+      "name": "words containing z and o",
+      "url": "/words-collections/words-containing-z-and-o"
+    },
+    {
+      "name": "words containing z and t",
+      "url": "/words-collections/words-containing-z-and-t"
+    },
+    {
+      "name": "words containing z and u",
+      "url": "/words-collections/words-containing-z-and-u"
+    },
+    {
+      "name": "words containing z and y",
+      "url": "/words-collections/words-containing-z-and-y"
+    },
+    {
+      "name": "words containing f and j",
+      "url": "/words-collections/words-containing-f-and-j"
+    },
+    {
+      "name": "words containing g and j",
+      "url": "/words-collections/words-containing-g-and-j"
+    },
+    {
+      "name": "words containing k and w",
+      "url": "/words-collections/words-containing-k-and-w"
+    },
+    {
+      "name": "words containing s and q",
+      "url": "/words-collections/words-containing-s-and-q"
+    },
+    {
+      "name": "words containing v and f",
+      "url": "/words-collections/words-containing-v-and-f"
+    },
+    {
+      "name": "words containing x and v",
+      "url": "/words-collections/words-containing-x-and-v"
+    },
+    {
+      "name": "words containing a and o",
+      "url": "/words-collections/words-containing-a-and-o"
+    },
+    {
+      "name": "words containing b and d",
+      "url": "/words-collections/words-containing-b-and-d"
+    },
+    {
+      "name": "words containing c and g",
+      "url": "/words-collections/words-containing-c-and-g"
+    },
+    {
+      "name": "words containing g and w",
+      "url": "/words-collections/words-containing-g-and-w"
+    },
+    {
+      "name": "words containing i and e",
+      "url": "/words-collections/words-containing-i-and-e"
+    },
+    {
+      "name": "words containing j and f",
+      "url": "/words-collections/words-containing-j-and-f"
+    },
+    {
+      "name": "words containing j and o",
+      "url": "/words-collections/words-containing-j-and-o"
+    },
+    {
+      "name": "words containing k and b",
+      "url": "/words-collections/words-containing-k-and-b"
+    },
+    {
+      "name": "words containing o and x",
+      "url": "/words-collections/words-containing-o-and-x"
+    },
+    {
+      "name": "words containing q and e",
+      "url": "/words-collections/words-containing-q-and-e"
+    },
+    {
+      "name": "words containing r and e",
+      "url": "/words-collections/words-containing-r-and-e"
+    },
+    {
+      "name": "words containing r and u",
+      "url": "/words-collections/words-containing-r-and-u"
+    },
+    {
+      "name": "words containing s and x",
+      "url": "/words-collections/words-containing-s-and-x"
+    },
+    {
+      "name": "words containing t and q",
+      "url": "/words-collections/words-containing-t-and-q"
+    },
+    {
+      "name": "words containing w and u",
+      "url": "/words-collections/words-containing-w-and-u"
+    },
+    {
+      "name": "words containing x and c",
+      "url": "/words-collections/words-containing-x-and-c"
+    },
+    {
+      "name": "words containing x and l",
+      "url": "/words-collections/words-containing-x-and-l"
+    },
+    {
+      "name": "words containing x and r",
+      "url": "/words-collections/words-containing-x-and-r"
+    },
+    {
+      "name": "words containing x and s",
+      "url": "/words-collections/words-containing-x-and-s"
+    },
+    {
+      "name": "words containing x and x",
+      "url": "/words-collections/words-containing-x-and-x"
+    },
+    {
+      "name": "words containing z and p",
+      "url": "/words-collections/words-containing-z-and-p"
+    },
+    {
+      "name": "words containing d and i",
+      "url": "/words-collections/words-containing-d-and-i"
+    },
+    {
+      "name": "words containing f and z",
+      "url": "/words-collections/words-containing-f-and-z"
+    },
+    {
+      "name": "words containing r and x",
+      "url": "/words-collections/words-containing-r-and-x"
+    },
+    {
+      "name": "words containing e and a",
+      "url": "/words-collections/words-containing-e-and-a"
+    },
+    {
+      "name": "words containing e and o",
+      "url": "/words-collections/words-containing-e-and-o"
+    },
+    {
+      "name": "words containing e and r",
+      "url": "/words-collections/words-containing-e-and-r"
+    },
+    {
+      "name": "words containing n and h",
+      "url": "/words-collections/words-containing-n-and-h"
+    },
+    {
+      "name": "words containing n and y",
+      "url": "/words-collections/words-containing-n-and-y"
+    },
+    {
+      "name": "words containing o and l",
+      "url": "/words-collections/words-containing-o-and-l"
+    },
+    {
+      "name": "words containing o and n",
+      "url": "/words-collections/words-containing-o-and-n"
+    },
+    {
+      "name": "words containing o and r",
+      "url": "/words-collections/words-containing-o-and-r"
+    },
+    {
+      "name": "words containing r and i",
+      "url": "/words-collections/words-containing-r-and-i"
+    },
+    {
+      "name": "words containing r and l",
+      "url": "/words-collections/words-containing-r-and-l"
+    },
+    {
+      "name": "words containing y and i",
+      "url": "/words-collections/words-containing-y-and-i"
+    },
+    {
+      "name": "words containing y and n",
+      "url": "/words-collections/words-containing-y-and-n"
+    },
+    {
+      "name": "words containing z and m",
+      "url": "/words-collections/words-containing-z-and-m"
+    },
+    {
+      "name": "words containing n and i",
+      "url": "/words-collections/words-containing-n-and-i"
+    },
+    {
+      "name": "words containing r and o",
+      "url": "/words-collections/words-containing-r-and-o"
+    },
+    {
+      "name": "words containing n and x",
+      "url": "/words-collections/words-containing-n-and-x"
+    },
+    {
+      "name": "words containing d and g",
+      "url": "/words-collections/words-containing-d-and-g"
+    },
+    {
+      "name": "words containing e and g",
+      "url": "/words-collections/words-containing-e-and-g"
+    },
+    {
+      "name": "words containing o and g",
+      "url": "/words-collections/words-containing-o-and-g"
+    },
+    {
+      "name": "words containing l and g",
+      "url": "/words-collections/words-containing-l-and-g"
+    }
+  ],
+  "megaMenu": {
+    "nav-link-name": "Tools",
+    "dropdown": [
+      {
+        "categoryName": "Recommended Pages",
+        "links": [
+          {
+            "name": "All L Letter Containing X Pages",
+            "url": "/words-collections/all-l-letter-containing-x-pages"
+          },
+          {
+            "name": "All Ending with x pages",
+            "url": "/words-collections/all-ending-with-x-pages"
+          },
+          {
+            "name": "All L letter Ending with x pages",
+            "url": "/words-collections/all-l-letter-ending-with-x-pages"
+          },
+          {
+            "name": "All L Letter Starting with x pages",
+            "url": "/words-collections/all-l-letter-starting-with-x-pages"
+          },
+          {
+            "name": "All L letter words pages",
+            "url": "/words-collections/all-l-letter-words-pages"
+          },
+          {
+            "name": "All starting with x pages",
+            "url": "/words-collections/all-starting-with-x-pages"
+          },
+          {
+            "name": "All containing x and y pages",
+            "url": "/words-collections/all-containing-x-and-y-pages"
+          },
+          {
+            "name": "All containing x pages",
+            "url": "/words-collections/all-containing-x-pages"
+          },
+          {
+            "url": "/words-collections/all-l-letters-containing-x-and-y-words",
+            "name": "Words of given length Containing with x and y"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-containing-vowels",
+            "name": "List of words x letter with y vowels pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-containing-consonants",
+            "name": "List of words x letter with y consonants pages"
+          },
+          {
+            "url": "/words-collections/all-consonants-related",
+            "name": "List of words all consonants related pages"
+          },
+          {
+            "url": "/words-collections/all-words-y-in-middle",
+            "name": "List of words y in middle pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-y-in-middle",
+            "name": "List of words x letter with y in middle pages"
+          },
+          {
+            "url": "/words-collections/all-words-starting-with-x-and-ending-z",
+            "name": "List of words starting with x and ending with z pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-word-starting-with-y-and-ending-with-z",
+            "name": "List of words x letter words starting with y and ending with z pages"
+          },
+          {
+            "url": "/words-collections/all-ending-containing-words-pages",
+            "name": "List of words all ending with x and containing with words y pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-ending-with-y-and-constaining-z",
+            "name": "List of l letter words ending with x and containing with words y pages"
+          },
+          {
+            "url": "/words-collections/all-words-starting-and-containing-with",
+            "name": "List of all words starting with and containing with"
+          }
+        ]
+      },
+      {
+        "categoryName": "Users also visited",
+        "links": [
+          {
+            "name": "words containing d",
+            "url": "/words-collections/words-containing-d"
+          },
+          {
+            "name": "words containing ia",
+            "url": "/words-collections/words-containing-ia"
+          },
+          {
+            "name": "words containing qu",
+            "url": "/words-collections/words-containing-qu"
+          },
+          {
+            "name": "words containing ur",
+            "url": "/words-collections/words-containing-ur"
+          },
+          {
+            "name": "words containing ti",
+            "url": "/words-collections/words-containing-ti"
+          },
+          {
+            "name": "words containing z",
+            "url": "/words-collections/words-containing-z"
+          },
+          {
+            "name": "words containing ng",
+            "url": "/words-collections/words-containing-ng"
+          },
+          {
+            "name": "words containing o",
+            "url": "/words-collections/words-containing-o"
+          },
+          {
+            "name": "words containing bi",
+            "url": "/words-collections/words-containing-bi"
+          },
+          {
+            "name": "words containing bi",
+            "url": "/words-collections/words-containing-bi"
+          },
+          {
+            "name": "words containing wh",
+            "url": "/words-collections/words-containing-wh"
+          },
+          {
+            "name": "words containing ze",
+            "url": "/words-collections/words-containing-ze"
+          },
+          {
+            "name": "words containing ac",
+            "url": "/words-collections/words-containing-ac"
+          },
+          {
+            "name": "words containing qi",
+            "url": "/words-collections/words-containing-qi"
+          },
+          {
+            "name": "words containing ow",
+            "url": "/words-collections/words-containing-ow"
+          },
+          {
+            "name": "words containing at",
+            "url": "/words-collections/words-containing-at"
+          },
+          {
+            "name": "words containing x",
+            "url": "/words-collections/words-containing-x"
+          },
+          {
+            "name": "words containing oo",
+            "url": "/words-collections/words-containing-oo"
+          },
+          {
+            "name": "words containing z",
+            "url": "/words-collections/words-containing-z"
+          },
+          {
+            "name": "words containing n",
+            "url": "/words-collections/words-containing-n"
+          }
+        ]
+      },
+      {
+        "categoryName": "Users also visited",
+        "links": [
+          {
+            "name": "Two letter words",
+            "url": "/words-collections/two-letter-words"
+          },
+          {
+            "name": "Three letter words",
+            "url": "/words-collections/three-letter-words"
+          },
+          {
+            "name": "Four letter words",
+            "url": "/words-collections/four-letter-words"
+          },
+          {
+            "name": "Five letter words",
+            "url": "/words-collections/five-letter-words"
+          },
+          {
+            "name": "Six letter words",
+            "url": "/words-collections/six-letter-words"
+          },
+          {
+            "name": "Seven letter words",
+            "url": "/words-collections/seven-letter-words"
+          },
+          {
+            "name": "Eight letter words",
+            "url": "/words-collections/eight-letter-words"
+          },
+          {
+            "name": "Nine letter words",
+            "url": "/words-collections/nine-letter-words"
+          },
+          {
+            "name": "Ten letter words",
+            "url": "/words-collections/ten-letter-words"
+          },
+          {
+            "name": "Eleven letter words",
+            "url": "/words-collections/eleven-letter-words"
+          },
+          {
+            "name": "Twelve letter words",
+            "url": "/words-collections/twelve-letter-words"
+          },
+          {
+            "name": "Thirteen letter words",
+            "url": "/words-collections/thirteen-letter-words"
+          },
+          {
+            "name": "Fourteen letter words",
+            "url": "/words-collections/fourteen-letter-words"
+          },
+          {
+            "name": "Fifteen letter words",
+            "url": "/words-collections/fifteen-letter-words"
+          }
+        ]
+      }
+    ]
+  }
+}

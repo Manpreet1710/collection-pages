@@ -1,0 +1,34 @@
+[
+    {
+        "website": "scrabblewordfinders",
+        "feature":"l-letter-words-ending-with-containing"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"l-letter-words-y-in-imddle"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"words-ending-with-x-and-containing-with-y"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"words-starting-with-x-and-containing-with-y"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"words-starting-with-x-and-ending-with-y"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"words-y-in-imddle"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"x-letter-word-strating-with-y-and-containing-z"
+    },
+    {
+        "website": "scrabblewordfinders",
+        "feature":"x-letter-word-strating-with-y-and-ending-with-z"
+    }
+]

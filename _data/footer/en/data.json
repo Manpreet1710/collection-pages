@@ -1,0 +1,50 @@
+
+{
+    "logo": "/scrabblewordfinder-logo.svg",
+    "heading": "marketing@scrabblewordfinders.org",
+    "linksTitle": "Resources",
+    "companytitle": "Company",
+    "networksitestitle": "Network sites",
+    "producttitle": "Tools",
+    "company": [
+        {
+            "name": "Terms of use",
+            "url": "/words/terms-and-conditions"
+        },
+        {
+            "name": "Privacy Policy",
+            "url": "/words/privacy-policy"
+        },
+        {
+            "name": "Disclaimer",
+            "url": "/words/disclaimer"
+        }
+    ],
+    "links": [],
+    "tools": [
+    ],
+    "social": [
+        {
+            "icon": "bi bi-facebook",
+            "url": "/words/",
+            "title": "facebook"
+        },
+        {
+            "icon": "bi bi-instagram",
+            "url": "/words/",
+            "title": "instagram"
+        },
+        {
+            "icon": "bi bi-linkedin",
+            "url": "/words/",
+            "title": "linkden"
+        },
+        {
+            "icon": "bi bi-twitter",
+            "url": "/words/",
+            "title": "twitter"
+        }
+    ],
+    "messege": "Copyright © 2023 All rights reserved to scrabblewordfinders",
+    "legal": []
+}

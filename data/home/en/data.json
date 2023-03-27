@@ -1,0 +1,102 @@
+{
+  "x": "a",
+  "h1": "Find all possible words",
+  "title": "Find all possible words - wordswithletters",
+  "meta": "Generates all possible words by rearranging your letters  Win at Scrabble and WWF using wordswithletters.org",
+  "megaMenu": {
+    "nav-link-name": "Tools",
+    "dropdown": [
+      {
+        "categoryName": "Recommended Pages",
+        "links": [
+          {
+            "name": "All L Letter Containing X Pages",
+            "url": "/words-collections/all-l-letter-containing-x-pages"
+          },
+          {
+            "name": "All Ending with x pages",
+            "url": "/words-collections/all-ending-with-x-pages"
+          },
+          {
+            "name": "All L letter Ending with x pages",
+            "url": "/words-collections/all-l-letter-ending-with-x-pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-ending-with-y-and-constaining-z",
+            "name": "List of l letter words ending with x and containing with words y pages"
+          },
+          {
+            "url": "/words-collections/all-words-starting-and-containing-with",
+            "name": "List of all words starting with and containing with"
+          }
+        ]
+      },
+      {
+        "categoryName": "Recommended Pages",
+        "links": [
+          {
+            "name": "All L Letter Starting with x pages",
+            "url": "/words-collections/all-l-letter-starting-with-x-pages"
+          },
+          {
+            "name": "All L letter words pages",
+            "url": "/words-collections/all-l-letter-words-pages"
+          },
+          {
+            "name": "All starting with x pages",
+            "url": "/words-collections/all-starting-with-x-pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-word-starting-with-y-and-ending-with-z",
+            "name": "List of words x letter words starting with y and ending with z pages"
+          },
+          {
+            "url": "/words-collections/all-ending-containing-words-pages",
+            "name": "List of words all ending with x and containing with words y pages"
+          }
+        ]
+      },
+      {
+        "categoryName": "Recommended Pages",
+        "links": [
+          {
+            "name": "All containing x and y pages",
+            "url": "/words-collections/all-containing-x-and-y-pages"
+          },
+          {
+            "name": "All containing x pages",
+            "url": "/words-collections/all-containing-x-pages"
+          },
+          {
+            "url": "/words-collections/all-l-letters-containing-x-and-y-words",
+            "name": "Words of given length Containing with x and y"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-containing-vowels",
+            "name": "List of words x letter with y vowels pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-containing-consonants",
+            "name": "List of words x letter with y consonants pages"
+          },
+          {
+            "url": "/words-collections/all-consonants-related",
+            "name": "List of words all consonants related pages"
+          },
+          {
+            "url": "/words-collections/all-words-y-in-middle",
+            "name": "List of words y in middle pages"
+          },
+          {
+            "url": "/words-collections/all-x-letter-words-y-in-middle",
+            "name": "List of words x letter with y in middle pages"
+          },
+          {
+            "url": "/words-collections/all-words-starting-with-x-and-ending-z",
+            "name": "List of words starting with x and ending with z pages"
+          }
+        ]
+      }
+    ]
+  }
+}

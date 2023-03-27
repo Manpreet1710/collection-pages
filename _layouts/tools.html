@@ -1,0 +1,56 @@
+{% assign file = page.fileName %}
+{% assign lang = page.lang %}
+{% assign folder = page.folderName %}
+{% assign homeData= site.data[folder][lang][file] %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+{%- include head/index.html -%}
+
+<body>
+    {%- include header/index.html -%}
+
+    <div class="tools-feature">
+        {{content}}
+    </div>
+
+    {% include section/feature.html %}
+
+    {%- if dataToShow.faqList -%}
+    {%- if dataToShow.faqList.first.Question !='' -%}
+    {% include section/faq.html %}
+    {% endif %}
+    {% endif %}
+
+    {% include adBlocker/adBlocker.html %}
+
+    {%- include Rating/rating.html -%}
+
+    {%- assign langen = "en" -%}
+    {%- if site.data[folder][langen][file].categories -%}
+    {% assign categories= site.data[folder][langen][file].categories %}
+    {%- else -%}
+    {% assign categories= page.categories %}
+    {%- endif -%}
+    {%- if site.data[folder][langen][file].tags -%}
+    {% assign tags= site.data[folder][langen][file].tags %}
+    {%- else -%}
+    {% assign tags= page.tags %}
+    {%- endif -%}
+    {%- if categories.size> 0 or tags.size>0-%}
+    {%- include section/related_categories_post.html -%}
+    {%- else -%}
+    {%- include section/recent_posts.html -%}
+    {% endif %}
+
+
+    {%- if site.MonumetricID -%}
+    {%- include footer/unqFooter.html -%}
+    {%- else -%}
+    {%- include footer/index.html -%}
+    {%- endif -%}
+    {%- include script.html -%}
+</body>
+
+</html>

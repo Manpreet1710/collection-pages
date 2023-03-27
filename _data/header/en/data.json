@@ -1,0 +1,23 @@
+{
+  "navbarBrandText": "",
+  "navbarBrandLogo": "",
+  "tooltip": "scrabble word finder",
+  "more": [
+    {
+      "name": "Scrabble word finder with blanks",
+      "url": "/scrabble-word-finder-with-blanks"
+    },
+    {
+      "name": "Scrabble 2 letter words with x",
+      "url": "/scrabble-2-letter-words"
+    },
+    {
+      "name": "Is xyz a scrabble word",
+      "url": "/is-xyz-a-scrabble-word"
+    },
+    {
+      "name": "Scrabble words collections",
+      "url": "/words"
+    }
+  ]
+}

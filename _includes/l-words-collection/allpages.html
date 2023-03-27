@@ -1,0 +1,50 @@
+{% assign dataToShow = site.data[page.folderName][page.lang][page.fileName] %}
+<style>
+    #hides {
+        display: none;
+    }
+
+    .conver-list {
+        list-style: none;
+        font-size: 13px;
+        text-decoration: underline;
+        padding-bottom: 10px;
+    }
+
+    .tools-feature {
+        margin-top: 20px;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+    }
+
+    .feature {
+        display: none;
+    }
+</style>
+
+{%- if dataToShow.h1 or dataToShow.h2 -%}
+<div class="tools_headings">
+    <div class="container-fluid p-0">
+        <div class="pageHeading text-center">
+            <h1 class="heading pb-0 mb-3">{{dataToShow.h1}}</h1>
+            {%- if dataToShow.h2 != '' -%}
+            <h2>{{dataToShow.h2}}</h2>
+            {%- endif -%}
+        </div>
+    </div>
+</div>
+{%- endif -%}
+
+<div class="container-fluid text-center" style="margin: 50px 0;">
+    <div class="row">
+        {% for object in dataToShow.links %}
+        <li class="col-md-3 py-2 conver-list" style="list-style: none;">
+            <a href="{{object.url}}" style="color:#0d6efd!important; font-size: 12px;">
+                {{ object.name }}
+            </a>
+        </li>
+        {% endfor %}
+    </div>
+</div>
