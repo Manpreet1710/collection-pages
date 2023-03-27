@@ -1,1 +1,1 @@
-# words-collections
+# collection-pages
