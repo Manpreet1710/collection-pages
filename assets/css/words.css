@@ -154,6 +154,7 @@ input[type='radio'] {
 
 /* scrolling word selector css */
 .tab_link_wrapper {
+  height: 35px;
   width: 100%;
   justify-content: center;
   background: #fff;
