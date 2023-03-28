@@ -453,11 +453,11 @@ input[type='radio'] {
   .results-sidebar-section {
     position: unset;
     /* height: 170px; */
-    padding: 0px;
-    /* background-color: #FAFAFA; */
+    padding: 0;
+    background-color: #FAFAFA;
     border-radius: 0px;
     border: 0;
-    /* box-shadow: 0 0 4px rgb(0 0 0 / 20%); */
+    box-shadow: 0 0 4px rgb(0 0 0 / 20%);
   }
 
   .tab_link_wrapper {
