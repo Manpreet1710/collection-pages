@@ -59,8 +59,8 @@
                     <section class="results-sidebar-section">
                         <div class="d-none tab_link_wrapper" style="position: relative;">
                             <div id="tab-scroll" class="tab-scroll flex-row">
-                                <input type="button" name="" id="prev"
-                                    class="prev tabsBg noOutline cursorPointer" value="">
+                                <input type="button" name="" id="prev" class="prev tabsBg noOutline cursorPointer"
+                                    value="">
                                 <div id="tab-container" class="search-container tab_container flex-row">
                                     {%- if dataToShow.words.size > 1 -%}
                                     {%- for scrabblewords in dataToShow.words-%}
@@ -73,8 +73,8 @@
                                     {%- endfor -%}
                                     {%- endif -%}
                                 </div>
-                                <input type="button" name="" id="next"
-                                    class="next tabsBg noOutline cursorPointer" value="">
+                                <input type="button" name="" id="next" class="next tabsBg noOutline cursorPointer"
+                                    value="">
                             </div>
                         </div>
                         <div class="results-sidebar-section-search">
@@ -283,14 +283,33 @@
     if (startwith_filter || endswith_filter || contains_filter || middle_filter || length_filter) {
         document.querySelector(".advanced-toggle-button").classList.add("highlight_filter")
     }
+
+    const autoLoadDuration = 5; //In Seconds
+    const eventList = ["keydown", "mousemove", "wheel", "touchmove", "touchstart", "touchend"];
+    const autoLoadTimeout = setTimeout(runScripts, autoLoadDuration * 1000);
+    eventList.forEach(function (event) {
+        window.addEventListener(event, triggerScripts, { passive: true })
+    });
+    function triggerScripts() {
+        runScripts();
+        clearTimeout(autoLoadTimeout);
+        eventList.forEach(function (event) {
+            window.removeEventListener(event, triggerScripts, { passive: true });
+        });
+    }
+    function runScripts() {
+        document.querySelectorAll("script[delay]").forEach(function (scriptTag) {
+            scriptTag.setAttribute("src", scriptTag.getAttribute("delay"));
+        });
+    }
 </script>
-<!-- {%- if page.vowels -%}
-<script src="/assets/js/vowelsFilter.js" data-length="{{page.length}}" data-vowelength="{{page.vowelLength}}"></script>
+{%- if page.vowels -%}
+<script delay="/assets/js/vowelsFilter.js" data-length="{{page.length}}" data-vowelength="{{page.vowelLength}}"></script>
 {%- elsif page.consonants -%}
-<script src="/assets/js/consonentsFilter.js" data-length="{{page.length}}"
+<script delay="/assets/js/consonentsFilter.js" data-length="{{page.length}}"
     data-consonantentlen="{{page.consonantLength}}"></script>
 {%- elsif page.middle -%}
-<script src="/assets/js/middleFilter.js" data-length="{{page.length}}"></script>
+<script delay="/assets/js/middleFilter.js" data-length="{{page.length}}"></script>
 {%- else -%}
-<script src="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
-{%- endif -%} -->
+<script delay="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
+{%- endif -%}
