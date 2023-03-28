@@ -61,8 +61,8 @@
                             <form  id='form'>
                                 <div class="tab_link_wrapper" style="position: relative;">
                                     <div id="tab-scroll" class="tab-scroll flex-row">
-                                        <input type="button" name="" id="prev"
-                                            class="prev tabsBg noOutline cursorPointer" value="">
+                                        <!-- <input type="button" name="" id="prev"
+                                            class="prev tabsBg noOutline cursorPointer" value=""> -->
                                         <div id="tab-container" class="search-container tab_container flex-row">
                                             {%- if dataToShow.words.size > 1 -%}
                                             {%- for scrabblewords in dataToShow.words-%}
@@ -75,21 +75,21 @@
                                             {%- endfor -%}
                                             {%- endif -%}
                                         </div>
-                                        <input type="button" name="" id="next"
-                                            class="next tabsBg noOutline cursorPointer" value="">
+                                        <!-- <input type="button" name="" id="next"
+                                            class="next tabsBg noOutline cursorPointer" value=""> -->
                                     </div>
                                 </div>
-                                <div class="search-box">
+                                <div class="search-box position-relative">
                                     <input placeholder="YOUR LETTERS" class="txtBox" name="search" maxlength="15"
                                         autocomplete="off" id="mobile_txtbox">
                                     <div class="close-button" style="display:none"><i
                                             class="ltr-cls-btn bi bi-x-circle-fill"></i></div>
 
                                     <button class="d-none btn mobile-search-icon">
-                                        <i class="bi bi-search"></i>
+                                        <i class="d-none bi bi-search"></i>
                                     </button>
 
-                                    <div class="advanced-toggle-button" onclick="showAdvancedToggle()">
+                                    <div class="d-none advanced-toggle-button" onclick="showAdvancedToggle()">
                                         <i style="font-size: 18px;" class="filter_icon bi bi-funnel"></i>
                                     </div>
                                 </div>
