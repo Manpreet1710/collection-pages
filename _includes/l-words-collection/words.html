@@ -1,5 +1,4 @@
 {% assign dataToShow = site.data[page.folderName][page.lang][page.fileName] %}
-
 <div id="get-value" data-fileName="{{page.fileName}}" data-lang="{{page.lang}}" data-folderName="{{page.folderName}}">
     <div class="row">
         <div class="main_panel col-lg-10 mx-auto">
@@ -47,7 +46,6 @@
                                         id="{{item.i}}">See More Words</button>
                                 </div>
                             </div>
-
                         </div>
                         {%- endif -%}
                         {%- endfor -%}
