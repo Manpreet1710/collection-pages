@@ -454,10 +454,10 @@ input[type='radio'] {
     position: unset;
     height: 170px;
     padding: 15px;
-    background-color: #FAFAFA;
+    /* background-color: #FAFAFA; */
     border-radius: 0px;
     border: 0;
-    box-shadow: 0 0 4px rgb(0 0 0 / 20%);
+    /* box-shadow: 0 0 4px rgb(0 0 0 / 20%); */
   }
 
   .tab_link_wrapper {
