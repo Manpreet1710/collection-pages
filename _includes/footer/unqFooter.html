@@ -36,9 +36,8 @@
                             <div class="inner-dropdown row">
                                 {%- for item in dataToShow.megaMenu.dropdown -%}
                                 <div class="footer_links col-lg-4 col-md-6 mb-4 card-group">
-                                    <p class="mb-4"><a
-                                            style="color: #222 !important; font-weight: bold;font-size: 16px;"
-                                            class="footer-links txt-secondary">{{item.categoryName}}</a></p>
+                                    <p class="mb-4" style="color: #222 !important; font-weight: bold;font-size: 16px;"
+                                            class="footer-links txt-secondary">{{item.categoryName}}</p>
                                     {%- for item in item.links limit: 10 -%}
                                     <p class="mb-4"><a class="footer-links txt-secondary"
                                             href="{{item.url}}">{{item.name}}</a></p>
