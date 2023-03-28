@@ -57,28 +57,28 @@
                 </div>
                 <div class="col-md-4 right-sidebar-controller results-sidebar-controller">
                     <section class="results-sidebar-section">
-                        <div class="results-sidebar-section-search">
-                            <form  id='form'>
-                                <div class="tab_link_wrapper" style="position: relative;">
-                                    <div id="tab-scroll" class="tab-scroll flex-row">
-                                        <!-- <input type="button" name="" id="prev"
-                                            class="prev tabsBg noOutline cursorPointer" value=""> -->
-                                        <div id="tab-container" class="search-container tab_container flex-row">
-                                            {%- if dataToShow.words.size > 1 -%}
-                                            {%- for scrabblewords in dataToShow.words-%}
-                                            {%- for item in scrabblewords %}
-                                            {%- if forloop.index == 1 -%}
-                                            <input type="button" id="Tab_{{item.i}}" onclick="filterLinks({{item.i}})"
-                                                value="{{item.i}} Letter" class="tab_link cursorPointer">
-                                            {%- endif -%}
-                                            {%- endfor -%}
-                                            {%- endfor -%}
-                                            {%- endif -%}
-                                        </div>
-                                        <!-- <input type="button" name="" id="next"
-                                            class="next tabsBg noOutline cursorPointer" value=""> -->
-                                    </div>
+                        <div class="tab_link_wrapper" style="position: relative;">
+                            <div id="tab-scroll" class="tab-scroll flex-row">
+                                <!-- <input type="button" name="" id="prev"
+                                    class="prev tabsBg noOutline cursorPointer" value=""> -->
+                                <div id="tab-container" class="search-container tab_container flex-row">
+                                    {%- if dataToShow.words.size > 1 -%}
+                                    {%- for scrabblewords in dataToShow.words-%}
+                                    {%- for item in scrabblewords %}
+                                    {%- if forloop.index == 1 -%}
+                                    <input type="button" id="Tab_{{item.i}}" onclick="filterLinks({{item.i}})"
+                                        value="{{item.i}} Letter" class="tab_link cursorPointer">
+                                    {%- endif -%}
+                                    {%- endfor -%}
+                                    {%- endfor -%}
+                                    {%- endif -%}
                                 </div>
+                                <!-- <input type="button" name="" id="next"
+                                    class="next tabsBg noOutline cursorPointer" value=""> -->
+                            </div>
+                        </div>
+                        <div class="results-sidebar-section-search">
+                            <form id='form'>
                                 <div class="search-box position-relative">
                                     <input placeholder="YOUR LETTERS" class="txtBox" name="search" maxlength="15"
                                         autocomplete="off" id="mobile_txtbox">
