@@ -159,8 +159,8 @@ input[type='radio'] {
   justify-content: center;
   background: #fff;
   border-radius: 40px;
-  margin: 0px;
-  padding: 0px !important;
+  margin: 10px 0px;
+  padding: 8px;
   box-shadow: 0 1px 4px 0 rgb(124 147 173 / 75%);
 }
 
@@ -455,10 +455,10 @@ input[type='radio'] {
     position: unset;
     /* height: 170px; */
     padding: 0;
-    /* background-color: #FAFAFA; */
+    background-color: #FAFAFA;
     border-radius: 0px;
     border: 0;
-    /* box-shadow: 0 0 4px rgb(0 0 0 / 20%); */
+    box-shadow: 0 0 4px rgb(0 0 0 / 20%);
   }
 
   .tab_link_wrapper {
