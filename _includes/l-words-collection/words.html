@@ -28,7 +28,7 @@
                             </div>
                             <div class="wordList">
                                 <ul class="ul list-unstyled">
-                                    {%- for item in scrabblewords limit:50 %}
+                                    {%- for item in scrabblewords limit:25 %}
                                     {%- assign value = item.word -%}
                                     <a class="anchor__style" target="_blank"
                                         href="/word-meaning?search={{item.word | strip_html}}">
