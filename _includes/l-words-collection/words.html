@@ -60,10 +60,10 @@
                     <section class="results-sidebar-section">
                         <div class="results-sidebar-section-search">
                             <form  id='form'>
-                                <div class="d-none tab_link_wrapper" style="position: relative;">
+                                <div class="tab_link_wrapper" style="position: relative;">
                                     <div id="tab-scroll" class="tab-scroll flex-row">
                                         <input type="button" name="" id="prev"
-                                            class="prev tabsBg noOutline cursorPointer" value="" style="display: none;">
+                                            class="prev tabsBg noOutline cursorPointer" value="">
                                         <div id="tab-container" class="search-container tab_container flex-row">
                                             {%- if dataToShow.words.size > 1 -%}
                                             {%- for scrabblewords in dataToShow.words-%}
@@ -77,8 +77,7 @@
                                             {%- endif -%}
                                         </div>
                                         <input type="button" name="" id="next"
-                                            class="next tabsBg noOutline cursorPointer" value=" "
-                                            style="display: none;">
+                                            class="next tabsBg noOutline cursorPointer" value="">
                                     </div>
                                 </div>
                                 <div class="search-box position-relative">
