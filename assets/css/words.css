@@ -154,7 +154,6 @@ input[type='radio'] {
 
 /* scrolling word selector css */
 .tab_link_wrapper {
-  height: 35px;
   width: 100%;
   justify-content: center;
   background: #fff;
@@ -454,7 +453,7 @@ input[type='radio'] {
   .results-sidebar-section {
     position: unset;
     /* height: 170px; */
-    padding: 0;
+    padding: 15px;
     background-color: #FAFAFA;
     border-radius: 0px;
     border: 0;
