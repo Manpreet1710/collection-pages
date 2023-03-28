@@ -84,11 +84,9 @@
                                         autocomplete="off" id="mobile_txtbox">
                                     <div class="close-button" style="display:none"><i
                                             class="ltr-cls-btn bi bi-x-circle-fill"></i></div>
-
-                                    <button class=" btn mobile-search-icon">
+                                    <button class="d-none btn mobile-search-icon">
                                         <i class=" bi bi-search"></i>
                                     </button>
-
                                     <div class="advanced-toggle-button" onclick="showAdvancedToggle()">
                                         <i style="font-size: 18px;" class="filter_icon bi bi-funnel"></i>
                                     </div>
@@ -286,8 +284,8 @@
         document.querySelector(".advanced-toggle-button").classList.add("highlight_filter")
     }
 </script>
-<script src="/assets/js/words.js"></script>
-{%- if page.vowels -%}
+<script defer src="/assets/js/words.js"></script>
+<!-- {%- if page.vowels -%}
 <script src="/assets/js/vowelsFilter.js" data-length="{{page.length}}" data-vowelength="{{page.vowelLength}}"></script>
 {%- elsif page.consonants -%}
 <script src="/assets/js/consonentsFilter.js" data-length="{{page.length}}"
@@ -296,4 +294,4 @@
 <script src="/assets/js/middleFilter.js" data-length="{{page.length}}"></script>
 {%- else -%}
 <script src="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
-{%- endif -%}
+{%- endif -%} -->
