@@ -39,7 +39,7 @@
                                     <p class="mb-4"><a
                                             style="color: #222 !important; font-weight: bold;font-size: 16px;"
                                             class="footer-links txt-secondary">{{item.categoryName}}</a></p>
-                                    {%- for item in item.links -%}
+                                    {%- for item in item.links limit: 10 -%}
                                     <p class="mb-4"><a class="footer-links txt-secondary"
                                             href="{{item.url}}">{{item.name}}</a></p>
                                     {%- endfor -%}
