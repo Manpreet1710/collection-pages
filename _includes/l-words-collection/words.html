@@ -28,7 +28,7 @@
                             </div>
                             <div class="wordList">
                                 <ul class="ul list-unstyled">
-                                    {%- for item in scrabblewords limit:25 %}
+                                    {%- for item in scrabblewords limit:50 %}
                                     {%- assign value = item.word -%}
                                     <a class="anchor__style" target="_blank"
                                         href="/word-meaning?search={{item.word | strip_html}}">
@@ -84,8 +84,8 @@
                                         autocomplete="off" id="mobile_txtbox">
                                     <div class="close-button" style="display:none"><i
                                             class="ltr-cls-btn bi bi-x-circle-fill"></i></div>
-                                    <button class="d-none btn mobile-search-icon">
-                                        <i class=" bi bi-search"></i>
+                                    <button id="btn-search-icon" class="d-none btn mobile-search-icon">
+                                        <i class="bi bi-search"></i>
                                     </button>
                                     <div class="advanced-toggle-button" onclick="showAdvancedToggle()">
                                         <i style="font-size: 18px;" class="filter_icon bi bi-funnel"></i>
