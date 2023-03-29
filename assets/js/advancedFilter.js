@@ -48,7 +48,7 @@ if (lengthValue || lengthValue == "") {
 async function handleSubmit(e) {
     try {
         e.preventDefault()
-        let url = `/filterData`
+        let url = `/filterData.json`
         main.innerHTML = `<div class="loader">
         <img src='/assets/images/loading.gif'>
         <div style="font-weight:900;font-size:14px" >Finding words - Powered by wordswithletters.org</div>
