@@ -200,9 +200,9 @@ async function getData() {
         let response
 
         if (input.value) {
-            response = await fetch(`/advancedFilter/getData?name=${input.value.toLowerCase()}`)
+            response = await fetch(`/.netlify/functions/getData?name=${input.value.toLowerCase()}`)
         } else {
-            response = await fetch(`/advancedFilter/getData`)
+            response = await fetch(`/.netlify/functions/getData`)
         }
         const data = await response.json()
         main.innerHTML = ''
