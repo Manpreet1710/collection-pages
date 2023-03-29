@@ -1,4 +1,4 @@
 cssfiles:
  <link rel="stylesheet" href="/assets/css/words.css"> 
 jsfiles:         
- <script src="/assets/js/words.js"></script>
+ <script defer src="/assets/js/words.js"></script>
