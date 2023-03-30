@@ -1,4 +1,5 @@
 {% assign dataToShow = site.data[page.folderName][page.lang][page.fileName] %}
+
 <div id="get-value" data-fileName="{{page.fileName}}" data-lang="{{page.lang}}" data-folderName="{{page.folderName}}">
     <div class="row">
         <div class="main_panel col-lg-10 mx-auto">
@@ -46,6 +47,7 @@
                                         id="{{item.i}}">See More Words</button>
                                 </div>
                             </div>
+
                         </div>
                         {%- endif -%}
                         {%- endfor -%}
@@ -278,6 +280,7 @@
     let contains_filter = `{{page.contains}}`
     let middle_filter = `{{page.middle}}`
     let length_filter = `{{page.length}}`
+
     if (startwith_filter || endswith_filter || contains_filter || middle_filter || length_filter) {
         document.querySelector(".advanced-toggle-button").classList.add("highlight_filter")
     }
@@ -294,4 +297,3 @@
 {%- else -%}
 <script defer src="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
 {%- endif -%}
-
