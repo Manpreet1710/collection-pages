@@ -3,7 +3,7 @@ layout: tools
 lang: en
 fileName: six-letter-words
 folderName: l-letter-collection
-permalink: /words/six-letter-words
+permalink: /words-collections/six-letter-words
 tool: L-letter-words
 length: 6
 ---
