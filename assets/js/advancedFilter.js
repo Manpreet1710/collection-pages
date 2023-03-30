@@ -28,8 +28,6 @@ for (let i = 0; i < wordLength.options.length; i++) {
         option.setAttribute('selected', true);
     }
 }
-
-
 if (serachValue || serachValue == "") {
     input.value = serachValue
 }
@@ -200,6 +198,7 @@ async function getData() {
             </div>`
         let response
 
+        console.log(input.value);
         if (input.value) {
             response = await fetch(`/advancedFilter/getData?name=${input.value.toLowerCase()}`)
         } else {
