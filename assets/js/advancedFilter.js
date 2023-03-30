@@ -48,7 +48,7 @@ if (lengthValue || lengthValue == "") {
 async function handleSubmit(e) {
     try {
         e.preventDefault()
-        let url = `/filterData.json`
+        let url = `/filterData`
         main.innerHTML = `<div class="loader">
         <img src='/assets/images/loading.gif'>
         <div style="font-weight:900;font-size:14px" >Finding words - Powered by wordswithletters.org</div>
@@ -200,9 +200,9 @@ async function getData() {
         let response
 
         if (input.value) {
-            response = await fetch(`/.netlify/functions/getData?name=${input.value.toLowerCase()}`)
+            response = await fetch(`/advancedFilter/getData?name=${input.value.toLowerCase()}`)
         } else {
-            response = await fetch(`/.netlify/functions/getData`)
+            response = await fetch(`/advancedFilter/getData`)
         }
         const data = await response.json()
         main.innerHTML = ''

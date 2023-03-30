@@ -3,11 +3,11 @@
 
  [[redirects]]
   from = "/advancedFilter/*"
-  to = "https://wordcollections.netlify.app/.netlify/functions/:splat"
+  to = "https://collection-pages.netlify.app/.netlify/functions/:splat"
   force = true
   status = 200
 [[redirects]]
   from = "/filterData"
-  to = "https://wordcollections.netlify.app/filterData.json"
+  to = "https://collection-pages.netlify.app/filterData.json"
   force = true
   status = 200
