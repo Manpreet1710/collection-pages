@@ -5,6 +5,8 @@ const startsWith = document.getElementById('startsWith')
 const endsWith = document.getElementById('endsWith')
 const containing = document.getElementById('mustInclude')
 const wordLength = document.querySelector('.wordLength')
+const getScript = document.currentScript
+const pageLengthValue = getScript.dataset.length
 const params = new URLSearchParams(window.location.search)
 let serachValue = params.get("search")
 let prefixValue = params.get('prefix')
@@ -16,6 +18,16 @@ let wordCount = document.querySelector('.wordCount')
 let errorMsg = document.querySelector('.errorMsg')
 let h2 = document.getElementsByTagName("h2")
 let option
+
+if (pageLengthValue) {
+    document.querySelector(".tab_link_wrapper").style.display = "none"
+  }
+  for (let i = 0; i < wordLength.options.length; i++) {
+    option = wordLength.options[i];
+    if (option.value == pageLengthValue) {
+        option.setAttribute('selected', true);
+    }
+  }
 
 
 if (serachValue || serachValue == "") {

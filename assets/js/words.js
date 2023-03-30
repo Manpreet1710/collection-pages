@@ -10,20 +10,6 @@ let common_style = document.getElementsByClassName("common_style")
 let filtertooltip = document.querySelector(".filter-tooltip")
 const formCheckInput = document.querySelectorAll('.form-check-input')
 
-const getScript = document.currentScript
-const pageLengthValue = getScript.dataset.length
-
-if (pageLengthValue) {
-  document.querySelector(".tab_link_wrapper").style.display = "none"
-}
-for (let i = 0; i < wordLength.options.length; i++) {
-  option = wordLength.options[i];
-  if (option.value == pageLengthValue) {
-      option.setAttribute('selected', true);
-  }
-}
-
-
 // txtBox.focus()
 function showAdvancedToggle() {
   var element = document.querySelector(".advanced-filter");
