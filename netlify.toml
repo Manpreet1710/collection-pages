@@ -1,11 +1,12 @@
 [build]
   functions = "functions" 
-
- [[redirects]]
+  
+  [[redirects]]
   from = "/advancedFilter/*"
   to = "https://collection-pages.netlify.app/.netlify/functions/:splat"
   force = true
   status = 200
+
 [[redirects]]
   from = "/filterData"
   to = "https://collection-pages.netlify.app/filterData.json"
