@@ -21,13 +21,13 @@ let option
 
 if (pageLengthValue) {
     document.querySelector(".tab_link_wrapper").style.display = "none"
-  }
-  for (let i = 0; i < wordLength.options.length; i++) {
+}
+for (let i = 0; i < wordLength.options.length; i++) {
     option = wordLength.options[i];
     if (option.value == pageLengthValue) {
         option.setAttribute('selected', true);
     }
-  }
+}
 
 
 if (serachValue || serachValue == "") {
