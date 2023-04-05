@@ -285,15 +285,3 @@
         document.querySelector(".advanced-toggle-button").classList.add("highlight_filter")
     }
 </script>
-<script defer src="/assets/js/words.js"></script>
-{%- if page.vowels -%}
-<script defer src="/assets/js/vowelsFilter.js" data-length="{{page.length}}"
-    data-vowelength="{{page.vowelLength}}"></script>
-{%- elsif page.consonants -%}
-<script defer src="/assets/js/consonentsFilter.js" data-length="{{page.length}}"
-    data-consonantentlen="{{page.consonantLength}}"></script>
-{%- elsif page.middle -%}
-<script defer src="/assets/js/middleFilter.js" data-length="{{page.length}}"></script>
-{%- else -%}
-<script defer src="/assets/js/advancedFilter.js" data-length="{{page.length}}"></script>
-{%- endif -%}

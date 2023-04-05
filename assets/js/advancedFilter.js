@@ -1,4 +1,3 @@
-console.log(true);
 const form = document.getElementById("form")
 const input = document.querySelector(".txtBox")
 const startsWith = document.getElementById('startsWith')
